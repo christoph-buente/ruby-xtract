@@ -2,7 +2,7 @@
  
 $spec = Gem::Specification.new do |s|
   s.name              = "ruby-xtract"
-  s.version           = "0.0.1"
+  s.version           = "0.0.2"
   s.platform          = Gem::Platform::RUBY
   s.summary           = "FFI based wrapper for libxtract."
   s.homepage          = "http://christoph-buente.github.com/ruby-xtract/"
