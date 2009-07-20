@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
  
-$spec = Gem::Specification.new do |s|
+Gem::Specification.new do |s|
   s.name              = "ruby-xtract"
   s.version           = "0.0.2"
   s.platform          = Gem::Platform::RUBY
@@ -10,15 +10,10 @@ $spec = Gem::Specification.new do |s|
 
   s.author            = "Christoph Bünte"
   s.email             = "info@christophbuente.de"
-
-  files = `git ls-files`.split("\n")
-  files.delete('.gitignore')
-
-  s.files             = files
-  s.test_files        = Dir['test/test_*.rb']
+  
   s.require_path      = "lib"
-  s.has_rdoc          = true
+  s.has_rdoc          = false
   s.rubyforge_project = 'ruby-xtract'
-
+  
   s.add_dependency("ffi")
 end
