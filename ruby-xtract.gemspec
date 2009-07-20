@@ -17,7 +17,8 @@ $spec = Gem::Specification.new do |s|
   s.files             = files
   s.test_files        = Dir['test/test_*.rb']
   s.require_path      = "lib"
-  s.has_rdoc          = false
+  s.has_rdoc          = true
+  s.rubyforge_project = ''
 
   s.add_dependency("ffi")
 end
