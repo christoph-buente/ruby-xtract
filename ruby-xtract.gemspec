@@ -18,7 +18,7 @@ $spec = Gem::Specification.new do |s|
   s.test_files        = Dir['test/test_*.rb']
   s.require_path      = "lib"
   s.has_rdoc          = true
-  s.rubyforge_project = ''
+  s.rubyforge_project = 'ruby-xtract'
 
   s.add_dependency("ffi")
 end
